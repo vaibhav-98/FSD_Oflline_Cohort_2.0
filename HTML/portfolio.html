@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+</head>
+<body>
+    
+    <!--  ==== HEADER SECTION -->
+      <header>
+         <h1> My Portfolio</h1>
+         <nav>
+             <a href="#about">About</a>
+             <a href="#hobbies">Hobbies</a>
+             <a href="#education">Education</a>
+             <a href="#contact">Contact Form</a>
+         </nav>
+      </header>
+
+      <!-- Main -->
+       <main>
+        <!-- About  -->
+          <section id="about">
+              <h2>About Me</h2>
+              <p>Hello, I am <strong>Anurag</strong>. <br>
+                I love <em>web development </em> and enjoy learning <i>new technologies</i>
+            </p>
+
+            <!-- Inline vs Block Element -->
+             <p>This is a <span style="color:red"> span (inline) </span> inside a paragraph</p>
+             <div style="background-color: lightgray;"> This is a div (block-level element)</div>
+          </section>
+          <!-- hobbies -->
+           <section id="hobbies">
+            <h2>My Hobbies & Goals</h2>
+             <!-- Unordered List -->
+            <h3>Hobbies:</h3>
+            <ul>
+                <li>Reading Books</li>
+                <li>Playing Football</li>
+                <li>Traveling</li>
+            </ul>
+            <!-- Ordered List -->
+             <h3>Goals:</h3>
+             <ol>
+                <li>Learn HTML,CSS, and JavaScript</li>
+                <li>Build my own website</li>
+                <li>Become a Full Stack Developer</li>
+             </ol>
+             <!-- Definition List -->
+              <h3>Quick Glossary:</h3>
+              <dl>
+                 <dt>HTML</dt>
+                  <dd>HyperText Markup Language</dd>
+                  <dt>CSS</dt>
+                  <dd>Cascading Style Sheets</dd>
+              </dl>
+           </section>
+
+           <!-- Education Table -->
+            <section id="education">
+                <h2>My Education</h2>
+                <table border="1" cellpadding="10">
+                    <tr>
+                        <th>Year</th>
+                        <th>Course</th>
+                        <th>Institution</th>
+                    </tr>
+                    <tr>
+                        <td>2023</td>
+                        <td>Bachelor in CS</td>
+                        <td>SRM University</td>
+                    </tr>
+                </table>
+            </section>
+
+            <!-- Contact Form -->
+             <section id="contact">
+                <h2>Contact Me</h2>
+                <form >
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" required><br><br>
+
+                    <label for="gender">Gender:</label>
+                    <input type="radio" name="gender" value="male"> male
+                    <input type="radio" name="gender" value="female"> Female 
+                     <input type="radio" name="gender" value="others"> Others <br><br>
+
+                     <label for="Skills">Skills</label>
+                     <input type="checkbox"  name="Skills" value="html"> HTML
+                     <input type="checkbox" name="Skills" value="css" > CSS
+                     <input type="checkbox" name="Skills" value="js"> JavaScript <br><br>
+
+                     <label for="country"> Country</label>
+                     <select name="country">
+                        <option value="india">India</option>
+                        <option value="USA">USA</option>
+                        <option value="uk">UK</option> <br><br>
+                     </select><br> <br>
+
+                     <label for="message">Message:</label><br>
+                      <textarea name="message" rows="5" cols="30"></textarea> <br><br>
+
+                      <button type="submit">Submit</button>
+                </form>
+             </section>
+      
+       </main>
+        
+
+       <footer>
+        <hr>
+        <p>&copy; 2025 My Portfolio | Made with  &hearts;</p>
+       </footer>
+</body>
+</html>
+
+
